@@ -1,0 +1,20 @@
+game: The game number in the season.
+school: The school(university) name of the main team.
+year: The year the game is played
+opp_name: Name of the opponent
+same_conf: Binary variable that takes a value of 1 if opponent is in the same conference as main team (i.e., opponent is also an Ivy League)
+Outcome: The difference in points between the team and its opponent.
+pts:number of pts scored by team in game 
+opp_pts: number of pts scored by opponent in game
+home game: Binary variable that takes a value of 1 if home game and 0 otherwise.
+height diversity: Blau’s index of team players’ heights.
+ethnic diversity: Blau’s index of team players’ ethnicity, predicted using player names. For details, refer to: this page
+class diversity: Blau’s index of team players’ class (i.e., freshman, sophomore, junior or senior)
+school diversity: Blau's index of diversity of players' school (i.e., private or public)
+degree diversity: Blau’s index of team players’ degrees, aggregated to a departmental level
+experience with opponent: Number of times team played with opponent in season.
+experience in arena: The number of games the team played in the arena
+opp_conference size: The number of teams that comprise opponent’s conference
+opp_conf_wl: The opponent conference's performance measured by the ratio of wins to losses in the season.
+opp_games_played: number of games played by opponent in the conference
+opponent win: loss: Opponent’s performance measured by the ratio of wins to losses in the season 
